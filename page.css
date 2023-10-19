@@ -8,17 +8,24 @@ html,body
 	height: 100%;
 	width: 100%;
 	color: white;
+	overflow: hidden;
 }
 #back
 {
 	background-color: #232D3F;
 	height: 100%;
 	width: 100%;
+	position: relative;
+	overflow: auto;
 }
+
+
+
+
 #image
 {
 /*	background-color: darkred;*/
-    background-image:url("philipp-kammerer-6Mxb_mZ_Q8E-unsplash.jpg");
+    background-image:url("https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 	width: 52%;
 	height: 68%;
 	position: absolute;
@@ -30,9 +37,46 @@ html,body
 }
 #text1{
    position: absolute;
-   font-family: monument;
-   bottom: 45%	;
-   right: 20%;
+   font-family:  'Playfair Display', serif;;
+   bottom: 40%	;
+   left: 54%;
    rotate: 90;
    margin: 2px;
+   line-height: 36px;
+   font-weight: 900;
+}
+
+
+
+#navbar
+{
+	height: 60px;
+
+   padding-right: 20px;
+	background-color: white;
+}
+a{
+	color: black;
+	margin-right: 220px;
+}
+
+input
+{
+	color: #192655;
+
+}
+button
+{
+	background-color:#232D3F ;
+	color: whitesmoke;
+}
+#education
+{
+	background-color: #552d0b;
+	width: 52%;
+	height: 2000px;
+	position: absolute;
+   top: 25%;
+   bottom: 15%;
+	
 }
