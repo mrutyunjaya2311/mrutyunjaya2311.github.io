@@ -1,0 +1,38 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+html,body
+{
+	height: 100%;
+	width: 100%;
+	color: white;
+}
+#back
+{
+	background-color: #232D3F;
+	height: 100%;
+	width: 100%;
+}
+#image
+{
+/*	background-color: darkred;*/
+    background-image:url("file:///home/student/Downloads/philipp-kammerer-6Mxb_mZ_Q8E-unsplash.jpg");
+	width: 52%;
+	height: 68%;
+	position: absolute;
+	right: 25%;
+	bottom: 15%;
+    background-size: cover;
+   
+
+}
+#text1{
+   position: absolute;
+   font-family: monument;
+   bottom: 45%	;
+   right: 20%;
+   rotate: 90;
+   margin: 2px;
+}
