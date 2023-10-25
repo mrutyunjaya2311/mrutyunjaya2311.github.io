@@ -10,6 +10,9 @@ html,body
 	color: white;
 	overflow: hidden;
 }
+
+
+
 #back
 {
 	background-color: #232D3F;
@@ -17,6 +20,7 @@ html,body
 	width: 100%;
 	position: relative;
 	overflow: auto;
+	
 }
 
 
@@ -37,9 +41,9 @@ html,body
 }
 #text1{
    position: absolute;
-   font-family:  'Playfair Display', serif;;
-   bottom: 40%	;
-   left: 54%;
+   font-family:  'Playfair Display', serif;
+   bottom: 25%	;
+   left: 44%;
    rotate: 90;
    margin: 2px;
    line-height: 36px;
@@ -52,7 +56,7 @@ html,body
 {
 	height: 60px;
 
-   padding-right: 20px;
+   padding-right: 15px;
 	background-color: white;
 	padding-top: 10px;
 }
@@ -61,7 +65,7 @@ a{
 	color: black;
 	font-size: 17px;
 	font-weight: 800;
-	margin-right: 150px;
+	margin-right: 90px;
 }
 
 input
@@ -74,33 +78,86 @@ button
 	background-color:#232D3F ;
 	color: whitesmoke;
 }
-#education
+
+
+
+
+
+
+#adress
 {
 	background-color: #552d0b;
-	width: 52%;
-	height: 400px;
+	height: 300px;
 	position: absolute;
    top: 700px;
    bottom: 15%;
-	right:25% ;
+   width: 72%;
+	left:10% ;
 
 }
 
 
-#one
+#two
 {
 	padding: 14px;
 }
-ul{
-   padding: 16px;
-}
-#hobbies
+
+#education
 {
-	background-color: #dcd2c0;
-	width: 52%;
-	height: 400px;
+/*	background-color: #dcd2c0;*/
+	height: 300px;
 	position: absolute;
    top: 1200px;
    bottom: 15%;
-	right:25% ;
+   width: 72%;
+	left:10% ;
+}
+
+#hobbies
+{
+	background-color: red;
+	height: 300px;
+	position: absolute;
+   top: 1600px;
+   bottom: 15%;
+	width: 72%;
+	left:10% ;
+}
+
+
+#intrest
+{
+	background-color: black;
+	
+	height: 300px;
+	position: absolute;
+   top: 2000px;
+   bottom: 15%;
+   width: 72%;
+	left:10% ;
+}
+
+
+#experience
+{
+    background-color: green;
+	height: 300px;
+	position: absolute;
+   top: 2400px;
+   bottom: 15%;
+   width: 72%;
+	left:10% ;
+}
+
+
+
+#footer
+{
+	background-color: white;
+	width: 100%;
+	height: 200px;
+	position: absolute;
+   top: 2700px;
+
+	
 }
