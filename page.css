@@ -93,6 +93,7 @@ button
    bottom: 15%;
    width: 72%;
 	left:10% ;
+	color: #232D3F;
 
 }
 
@@ -104,28 +105,30 @@ button
 
 #education
 {
-/*	background-color: #dcd2c0;*/
+   background-color: #dcd2c0;
 	height: 300px;
 	position: absolute;
    top: 1200px;
    bottom: 15%;
    width: 72%;
 	left:10% ;
+	color: #232D3F;
 }
 
-#hobbies
+#hobbies_and_intrest
 {
-	background-color: red;
+	background-color: #E8D2C0;
 	height: 300px;
 	position: absolute;
    top: 1600px;
    bottom: 15%;
 	width: 72%;
 	left:10% ;
+	color: #232D3F;
 }
 
 
-#intrest
+/*#intrest
 {
 	background-color: black;
 	
@@ -135,7 +138,7 @@ button
    bottom: 15%;
    width: 72%;
 	left:10% ;
-}
+}*/
 
 
 #experience
@@ -143,7 +146,7 @@ button
     background-color: green;
 	height: 300px;
 	position: absolute;
-   top: 2400px;
+   top: 2000px;
    bottom: 15%;
    width: 72%;
 	left:10% ;
@@ -157,7 +160,7 @@ button
 	width: 100%;
 	height: 200px;
 	position: absolute;
-   top: 2700px;
+   top: 2500px;
 
 	
 }
